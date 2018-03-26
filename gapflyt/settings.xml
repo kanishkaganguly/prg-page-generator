@@ -1,0 +1,84 @@
+<project>
+	<root_folder>gapflyt</root_folder>
+	<save_as>gapflyt.html</save_as>
+	<js_folder>js</js_folder>
+	<css_folder>css</css_folder>
+	<img_folder>img</img_folder>
+	<misc_folder>misc</misc_folder>
+	<project_details>
+		<page_title>GapFlyt</page_title>
+		<project_heading>
+			GapFlyt: Active Vision Based Minimalist Structure-less Gap Detection For Quadrotor Flight
+		</project_heading>
+		<lab_name>
+			Perception and Robotics Group
+		</lab_name>
+		<lab_url>
+			http://prg.cs.umd.edu
+		</lab_url>
+		<univ_name>
+			University of Maryland, College Park
+		</univ_name>
+		<yt_link>https://www.youtube.com/embed/FSSqB7ag04w</yt_link>
+		<overview_pdf>overview.pdf</overview_pdf>
+		<overview_img>teaser.png</overview_img>
+		<abstract>
+			Fig. 1. Different parts of the pipeline: (a) Detection of the unknown gap using active vision and TS2P algorithm (cyan highlight shows the path followed for obtaining multiple images for detection), (b) Sequence of quadrotor passing through the unknown gap using visual servoing based control. The blue and green highlights represent the tracked foreground and background regions respectively.
+		</abstract>
+		<project_description>
+			Although quadrotors, and aerial robots in general,
+			are inherently active agents, their perceptual capabilities
+			in literature so far have been mostly passive in nature.
+			Researchers and practitioners today use traditional computer
+			vision algorithms with the aim of building a representation
+			of general applicability: a 3D reconstruction of the scene.
+			Using this representation, planning tasks are constructed
+			and accomplished to allow the quadrotor to demonstrate
+			autonomous behavior. These methods are inefficient as they
+			are not task driven and such methodologies are not utilized
+			by flying insects and birds. Such agents have been solving the
+			problem of navigation and complex control for ages without
+			the need to build a 3D map and are highly task driven.    
+			<![CDATA[<br><br>]]>
+			In this paper, we propose this framework of bio-inspired
+			perceptual design for quadrotors. We use this philosophy to
+			design a minimalist sensori-motor framework for a quadrotor
+			to fly though unknown gaps without a 3D reconstruction of the
+			scene using only a monocular camera and onboard sensing. We
+			successfully evaluate and demonstrate the proposed approach
+			in many real-world experiments with different settings and
+			window shapes, achieving a success rate of 85% at 2.5m/s
+			even
+			with a minimum tolerance of just 5cm. To our knowledge, this
+			is the first paper which addresses the problem of gap detection
+			of an unknown shape and location with a monocular camera
+			and onboard sensing.
+		</project_description>
+		<project_poster>GapFlytPoster.png</project_poster>
+		<paper_pdf_url>https://arxiv.org/pdf/1802.05330.pdf</paper_pdf_url>
+		<bibtex>bibtex.txt</bibtex>
+	</project_details>
+
+	<author_list>
+		<author>
+			<author_name>Nitin J. Sanket</author_name>
+			<author_url>https://nitinjsanket.github.io/</author_url>
+		</author>
+		<author>
+			<author_name>Chahat Deep Singh</author_name>
+			<author_url>https://chahatdeep.github.io/</author_url>
+		</author>
+		<author>
+			<author_name>Kanishka Ganguly</author_name>
+			<author_url>http://www.umiacs.umd.edu/~kganguly/</author_url>
+		</author>
+		<author>
+			<author_name>Cornelia Ferm<![CDATA[&uuml;]]>ller</author_name>
+			<author_url>http://www.cfar.umd.edu/~fer/</author_url>
+		</author>
+		<author>
+			<author_name>Yiannis Aloimonos</author_name>
+			<author_url>http://www.cfar.umd.edu/~yiannis/</author_url>
+		</author>
+	</author_list>
+</project>

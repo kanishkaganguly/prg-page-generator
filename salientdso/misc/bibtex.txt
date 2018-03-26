@@ -1,0 +1,4 @@
+@misc{1802.05330,
+Author = {Nitin J Sanket and Chahat Deep Singh and Kanishka Ganguly and Cornelia Fermuller and Yiannis Aloimonos},
+Title = {GapFlyt: Active Vision Based Minimalist Structure-less Gap Detection For Quadrotor Flight},
+Year = {2018},
